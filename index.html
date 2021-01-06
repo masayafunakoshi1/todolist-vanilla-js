@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript ToDo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="whole-document">
+        <h1 class="title">JavaScript ToDo List</h1>
+
+        <div>
+            <form id="add-task-form">
+                <input
+                type="text"
+                placeholder="Type Task Here"
+                />
+                <button>Add Task</button>
+            </form>
+        </div>
+
+    <div class="flex-container">
+        
+        <div class="task-list-holder">
+            <h2>ToDo List</h2>
+            <ul class="tasks-list">
+                <li class="tasks">
+                    <span>Do the Laundry</span>
+                    <p class="completeBtnHandler">
+                        <button class="completeBtn">Complete Task</button>
+                    </p>
+                </li>
+                <li class="tasks">
+                    <span>Wash Dishes</span>
+                    <p class="completeBtnHandler">
+                        <button class="completeBtn">Complete Task</button>
+                    </p>
+                </li>
+                <li class="tasks">
+                    <span>Fold Clothes</span>
+                    <p class="completeBtnHandler">
+                        <button class="completeBtn">Complete Task</button>
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="completed-task-list-holder">
+            <h2>Completed List</h2>
+            <ul class="completed-tasks-list">
+
+            </ul>
+        </div>
+    </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

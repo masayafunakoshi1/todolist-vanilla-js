@@ -1,0 +1,79 @@
+/* overall document */
+body{
+    width: 100%;
+    min-height:100vh;
+    background-size: cover; 
+    
+    background: rgb(41,231,236);
+    background: linear-gradient(90deg, rgba(41,231,236,1) 0%, rgba(28,119,208,1) 45%, rgba(16,88,219,1) 65%, rgba(0,212,255,1) 100%);
+
+}
+
+.whole-document{
+    align-content: center;
+    text-align: center;
+}
+
+.title{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: chocolate;
+    box-shadow:3px 3px rgb(177, 29, 29);
+
+    margin: auto;
+    width: 200px;
+    border-radius: 25px;
+}
+
+/* Both task list divs */
+
+.flex-container{
+    display: flex;
+    max-width: 1200px;
+    height: fit-content;
+
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* Tasks List */
+
+input{
+    margin-top: 20px;
+}
+
+.task-list-holder{
+    flex: 1;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(247, 127, 83);
+    box-shadow:6px 6px rgb(231, 82, 28);
+    margin: auto;
+    border-radius: 25px;
+    
+}
+
+.tasks{
+    padding-top: 10px;
+    margin: 30px;
+    list-style-type: none;
+}
+
+/* Completed Tasks List */
+
+.completed-task-list-holder{
+    flex: 1;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(83, 247, 83);
+    box-shadow:6px 6px rgb(28, 231, 62);
+    margin: auto;
+    border-radius: 25px;
+}
+
+.completed-tasks{
+    padding-top: 10px;
+    margin: 30px;
+    list-style-type: none;
+    text-decoration: line-through;
+}
